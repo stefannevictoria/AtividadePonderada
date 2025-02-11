@@ -18,8 +18,8 @@ var mediaMinima = 7;
 // Verificando se o aluno foi aprovado
 if (media >= mediaMinima) {
     // Exibindo o resultado
-    console.log ('Parabéns!! Você foi aprovado! Sua média foi:' + media);
+    console.log ('Parabéns!! Você foi aprovado! Sua média foi:' + media.toFixed(2));
 } else {
     // Exibindo o resultado
-    console.log ('Não foi dessa vez :(. Você foi reprovado! Sua média foi:' + media);
+    console.log ('Não foi dessa vez :(. Você foi reprovado! Sua média foi:' + media.toFixed(2));
 }
