@@ -1,5 +1,5 @@
 // Armazenando a nota do aluno
-var nota1 = 13; 
+var nota1 = 9; 
 var nota2 = 9; 
 var nota3 = 7; 
 
@@ -22,5 +22,6 @@ if (media >= mediaMinima && media <= 10) {
     console.log ('Sua média foi:' + media.toFixed(2));
 } else {
     // Exibindo o resultado
-    console.log ('Não foi dessa vez :(. Você foi reprovado! Sua média foi:' + media.toFixed(2));
+    console.log ('Não foi dessa vez :(. Você foi reprovado!');
+    console.log ('Sua média foi:' + media.toFixed(2));
 }
