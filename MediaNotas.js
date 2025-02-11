@@ -22,6 +22,6 @@ if (media >= mediaMinima && media <= 10) {
     console.log ('Sua média foi:' + media.toFixed(2));
 } else {
     // Exibindo o resultado
-    console.log ('Não foi dessa vez :(. Você foi reprovado!');
+    console.log ('Você foi reprovado! :(');
     console.log ('Sua média foi:' + media.toFixed(2));
 }
