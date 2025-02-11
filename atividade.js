@@ -1,5 +1,5 @@
 // Armazenando a nota do aluno
-var nota1 = 6; 
+var nota1 = 13; 
 var nota2 = 9; 
 var nota3 = 7; 
 
@@ -16,7 +16,7 @@ var media = (nota1 + nota2 + nota3) / 3;
 var mediaMinima = 7; 
 
 // Verificando se o aluno foi aprovado
-if (media >= mediaMinima) {
+if (media >= mediaMinima && media <= 10) {
     // Exibindo o resultado
     console.log ('Parabéns!! Você foi aprovado! Sua média foi:' + media.toFixed(2));
 } else {
